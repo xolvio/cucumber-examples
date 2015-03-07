@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-example",
+  "version": "0.0.0",
+  "description": "Example project showing how to run cucumber with webdriver.io",
+  "author": "Sam Hatoum",
+  "private": true,
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xolvio/cucumber-examples.git"
+  },
+
+  "dependencies": {
+    "cucumber": "0.4.8",
+    "webdriverio": "2.4.5"
+  }
+}
