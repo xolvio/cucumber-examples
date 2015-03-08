@@ -13,5 +13,13 @@
   "dependencies": {
     "cucumber": "0.4.8",
     "webdriverio": "2.4.5"
+  },
+
+  "scripts": {
+    "kill-phantom": "pkill -9 phantomjs || true",
+    "start-phantom": "nohup phantomjs --webdriver 4444 > /dev/null 2>&1 &",
+    "wait-for-phantom": "sleep 1",
+    "run-cucumber": "./node_modules/cucumber/bin/cucumber.js -f pretty",
+    "test": "npm run kill-phantom && npm run start-phantom && npm run wait-for-phantom && npm run run-cucumber && npm run kill-phantom"
   }
 }
