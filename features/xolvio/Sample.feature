@@ -22,6 +22,7 @@ Feature: Title (one line describing the story)
   One more line ;-) ;-) =)
   And more lines :-)
   Some other changes
+  And more changes
   
 
   Scenario: Title
