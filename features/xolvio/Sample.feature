@@ -17,6 +17,7 @@ Feature: Title (one line describing the story)
   Acceptance Criteria is presented as Scenarios:
   
   This line has been changed.
+  One more line.
 
   Scenario: Title
     Given [context]
